@@ -10,18 +10,17 @@
 # m.mainloop()
 
 
-import tkinter as tk
-def disp():
-    l1.config(text="change")
-m=tk.Tk()
-l1=tk.Label(m,text="hello").grid(row=0)
-tk.Button(m,text="login",command=disp).grid(row=1)
-m.mainloop()
+# import tkinter as tk
+# def disp():
+#     l1.config(text="change")
+# m=tk.Tk()
+# l1=tk.Label(m,text="hello").grid(row=0)
+# tk.Button(m,text="login",command=disp).grid(row=1)
+# m.mainloop()
 
 import tkinter as tk
-
 def disp():
-    l1.config(text="change")
+    l1.config(text="change",bg="red")
 m = tk.Tk()
 l1 = tk.Label(m, text="hello")
 l1.grid(row=0)
